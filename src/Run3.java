@@ -1,7 +1,10 @@
+
+// hashmap
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
+//import java.util.Iterator;
+//import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -27,6 +30,7 @@ public class Run3 {
 
 	public static void main(String[] args) {
 		Map<Integer, Integer> map = new ConcurrentHashMap<Integer, Integer>();
+		//Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		map.put(10, 10);
 		map.put(4, 4);
 		map.put(20, 20);
